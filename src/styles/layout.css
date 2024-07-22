@@ -1,3 +1,14 @@
-.layout{
-    display: flex;
+.layout {
+  display: flex;
+}
+
+.doc-content {
+  margin-top: 10vh;
+  min-height: 50vh;
+  padding: 50px 100px 40px 50px;
+}
+
+.doc-content > p {
+  color: #bdbec4;
+  font-size: 15px;
 }

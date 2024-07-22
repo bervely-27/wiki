@@ -1,3 +1,5 @@
-/* .footer-Doc-item{
+.footer-doc-item{
     display: flex;
-} */
+    align-items: center;
+    gap: 10px;
+}

@@ -1,5 +1,19 @@
-.line{
-    width: 100%;
-    height: 5vh;
-    background-color:#bdbec4 ;
+.footer-doc hr {
+    border-width: 0.5px;
+    border-color: #eeeeee42;
+    margin-bottom: 45px;
+    
+}
+
+.footer-doc a {
+    color: black;
+    
+}
+
+.footer-doc {
+    padding-left: 60px;
+}
+
+.footer-doc p {
+    color: #a0a1a6;
 }
