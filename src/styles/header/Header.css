@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #d5d6da;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.header-wrapper{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-tabler{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+
+.logo-tabler p{
+    color: #d5d6da;
+    border: 1px solid #d5d6da;
+    padding: 0px 7px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 11px;
+}
+.logo{
+    position: relative;
+   
+}
+
+.logo::after{
+    content: 'docs';
+    position: absolute;
+    font-size: 10px ;
+    right: 0;
+    bottom: 0;
+    line-height: 5px;
+    text-transform: uppercase;
+    color: #d5d6da;
+    font-weight: 500;
+    
+}
