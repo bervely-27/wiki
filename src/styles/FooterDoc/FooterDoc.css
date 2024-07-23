@@ -1,19 +1,27 @@
 .footer-doc hr {
-    border-width: 0.5px;
-    border-color: #eeeeee42;
-    margin-bottom: 45px;
-    
+  border-width: 0.5px;
+  border-color: #eeeeee42;
+  margin-bottom: 45px;
 }
 
 .footer-doc a {
-    color: black;
-    
+  color: black;
 }
 
 .footer-doc {
-    padding-left: 60px;
+  padding-left: 60px;
 }
 
 .footer-doc p {
-    color: #a0a1a6;
+  color: #a0a1a6;
+}
+
+@media (max-width: 600px) {
+  .footer-doc {
+    padding-left: 20px;
+  }
+
+  .footer-doc hr {
+    margin-bottom: 15px;
+  }
 }

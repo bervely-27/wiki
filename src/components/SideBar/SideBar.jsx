@@ -48,10 +48,6 @@ const SideBar = () => {
     appMenus.map((menu) => menu.menuTitle)
   );
 
-  // React.useMemo(() => {
-  //   console.log(activeMenus);
-  // }, [activeMenus]);
-
   return (
     <div className="sidebar">
       <div className="sidebar-wrapper">
@@ -65,7 +61,7 @@ const SideBar = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           ></input>
-          <span>CtrlK</span>
+          {/* <span>CtrlK</span> */}
         </div>
 
         <div className="menu">

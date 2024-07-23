@@ -16,11 +16,12 @@
 .search-input {
   display: flex;
   border: 1px solid #d5d6da;
+  border-radius: 4px;
   align-items: center;
   background-color: white;
   gap: 0;
   color: #d5d6da;
-  padding: 10px 10px;
+  padding: 12px 10px;
   height: 1vh;
 }
 .search-input span {
@@ -45,4 +46,10 @@ label {
 
 #search {
   border: transparent;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
 }

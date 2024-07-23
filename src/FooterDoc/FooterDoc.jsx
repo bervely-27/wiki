@@ -7,7 +7,7 @@ const FooterDoc = () => {
   const faq = [
     {
       icon: <CiPower />,
-      question: "Tu as un question?",
+      question: "Tu as une question?",
       link: "Contact le support",
     },
     {
